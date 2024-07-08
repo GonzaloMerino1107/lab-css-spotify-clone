@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    margin: 0px;
+}
+
+h1{
+    font-size: 4em;
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#navbar img{
+    max-height: 40px;
+}
+
+#navbar_navbarLinks a{
+    text-decoration: none;
+    color: #1A1A1A;
+    margin: 0px 10px 0px 10px;
+}
+
+#header{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/landing.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    background-position: center; 
+}
+
+
+#header > p{
+    text-align: center;
+    color: white;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#features_featureCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:first baseline
+}
+
+.features_featureCards_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    max-width: 20%;
+}
+
+.features_featureCards_card > img{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.features_featureCards_card > p{
+    text-align: center;
+}
+
+.features_featureCards_card > h3{
+    color: #00B172;
+}
+
+.features_featureCards_card > p{
+    font-size: 1.5em;
+}
+
+#kanyeBanner{
+    background-color: #00B172;
+    width: 95vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+#kanyeBanner_description{
+    color: white;
+}
+
+#kanyeBanner_description > h2{
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+
+#kanyeBanner_description_features{
+    max-width: 50%;
+}
+
+#kanyeBanner > img {
+    height: 600px;
+    margin: 100px;
+}
+
+#kanyeBanner_spotifyIcon{
+    max-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
